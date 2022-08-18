@@ -132,6 +132,26 @@ namespace ControlNotas
             #endregion
         }
 
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            LimpiarControles();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult r = MessageBox.Show("Salir", "Esta seguro de salir?",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (r == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else
+            {
+                LimpiarControles();
+            }
+        }
+
         private void LimpiarControles()
         {
             txtAlumno.Clear();
