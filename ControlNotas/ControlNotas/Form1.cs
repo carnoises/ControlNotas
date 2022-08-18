@@ -130,6 +130,18 @@ namespace ControlNotas
                 epError.Clear();
             }
             #endregion
+
+            //Imprimir resultados
+            Promedio objP = new Promedio();
+
+            objP.Nota1 = nota1;
+            objP.Nota2 = nota2;
+            objP.Nota3 = nota3;
+            objP.Nota4 = nota4;
+
+            lblPromedio.Text = objP.CalculaPromedio().ToString("0.00");
+            lblNotaBaja.Text = objP.CalculaNotaBaja().ToString("0.00");
+            lblCondicion.Text = objP.Condicion();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -159,6 +171,9 @@ namespace ControlNotas
             txtNota2.Clear();
             txtNota3.Clear();
             txtNota4.Clear();
+            lblPromedio.Text = String.Empty;
+            lblNotaBaja.Text = String.Empty;
+            lblCondicion.Text = String.Empty;
             epError.Clear();
             txtAlumno.Focus();
         }
