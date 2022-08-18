@@ -33,14 +33,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtAlumno = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNota4 = new System.Windows.Forms.TextBox();
+            this.txtNota3 = new System.Windows.Forms.TextBox();
+            this.txtNota2 = new System.Windows.Forms.TextBox();
+            this.txtNota1 = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -86,71 +86,16 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNota4);
+            this.groupBox1.Controls.Add(this.txtNota3);
+            this.groupBox1.Controls.Add(this.txtNota2);
+            this.groupBox1.Controls.Add(this.txtNota1);
             this.groupBox1.Location = new System.Drawing.Point(350, 52);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(273, 93);
+            this.groupBox1.Size = new System.Drawing.Size(282, 93);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro de notas";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(6, 50);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(45, 22);
-            this.textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(69, 50);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(55, 22);
-            this.textBox2.TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(141, 50);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(52, 22);
-            this.textBox3.TabIndex = 3;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(211, 50);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(52, 22);
-            this.textBox4.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 26);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "NOTA 1";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(69, 26);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 16);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "NOTA 2";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(138, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 16);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "NOTA 3";
             // 
             // label6
             // 
@@ -161,6 +106,61 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "NOTA 4";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(138, 26);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 16);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "NOTA 3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(69, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 16);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "NOTA 2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 26);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "NOTA 1";
+            // 
+            // txtNota4
+            // 
+            this.txtNota4.Location = new System.Drawing.Point(211, 50);
+            this.txtNota4.Name = "txtNota4";
+            this.txtNota4.Size = new System.Drawing.Size(52, 22);
+            this.txtNota4.TabIndex = 4;
+            // 
+            // txtNota3
+            // 
+            this.txtNota3.Location = new System.Drawing.Point(141, 50);
+            this.txtNota3.Name = "txtNota3";
+            this.txtNota3.Size = new System.Drawing.Size(52, 22);
+            this.txtNota3.TabIndex = 3;
+            // 
+            // txtNota2
+            // 
+            this.txtNota2.Location = new System.Drawing.Point(69, 50);
+            this.txtNota2.Name = "txtNota2";
+            this.txtNota2.Size = new System.Drawing.Size(55, 22);
+            this.txtNota2.TabIndex = 2;
+            // 
+            // txtNota1
+            // 
+            this.txtNota1.Location = new System.Drawing.Point(6, 50);
+            this.txtNota1.Name = "txtNota1";
+            this.txtNota1.Size = new System.Drawing.Size(45, 22);
+            this.txtNota1.TabIndex = 1;
+            // 
             // btnCalcular
             // 
             this.btnCalcular.Location = new System.Drawing.Point(16, 101);
@@ -169,6 +169,7 @@
             this.btnCalcular.TabIndex = 5;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpiar
             // 
@@ -250,7 +251,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 275);
+            this.ClientSize = new System.Drawing.Size(658, 275);
             this.Controls.Add(this.lblCondicion);
             this.Controls.Add(this.lblNotaBaja);
             this.Controls.Add(this.lblPromedio);
@@ -267,6 +268,7 @@
             this.Name = "frmNotas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control de notas";
+            this.Load += new System.EventHandler(this.frmNotas_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.epError)).EndInit();
@@ -285,10 +287,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNota4;
+        private System.Windows.Forms.TextBox txtNota3;
+        private System.Windows.Forms.TextBox txtNota2;
+        private System.Windows.Forms.TextBox txtNota1;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnSalir;
