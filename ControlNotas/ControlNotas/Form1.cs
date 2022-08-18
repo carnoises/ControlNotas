@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ControlNotas
 {
-    public partial class Form1 : Form
+    public partial class frmNotas : Form
     {
-        public Form1()
+        public frmNotas()
         {
             InitializeComponent();
         }
